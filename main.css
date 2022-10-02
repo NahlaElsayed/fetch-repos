@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: tahoma, Arial;
+}
+.respon-container{
+    width: 800px;
+    background-color: #fafafa;
+    margin: auto;
+}
+.respon-container .get-respon{
+    padding: 20px;
+    display: flex;
+    background-color: #eee;
+}
+.respon-container .get-respon input{
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    font-size: 20px;
+    height: 55px;
+}
+.respon-container .get-respon  .get-button{
+    width: 140px;
+    border: none;
+    margin-left: 10px;
+    height: 55px;
+    background-color: #f44336;
+    color: white;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.respon-container .get-respon input:focus{
+    outline: 2px solid #f44336;
+}
+.respon-container .show-data{
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.respon-container .show-data .repo_div{
+    background-color: white;
+    padding: 15px;
+
+}
+.respon-container .show-data .repo_div:not(:last-child){
+    margin-bottom: 5px;
+
+}
+.respon-container .show-data .repo_div a,
+.respon-container .show-data .repo_div span{
+    float: right;
+    border-radius: 4px;
+    margin-left: 4px;
+    color: #fff;
+    font-size: bold;
+    width: 100px;
+    text-align: center;
+    padding: 4px;
+}
+.respon-container .show-data .repo_div a{
+    text-decoration: none;
+    background-color: #e91e63;
+}
+.respon-container .show-data .repo_div span{
+    background-color: #009688;
+}
